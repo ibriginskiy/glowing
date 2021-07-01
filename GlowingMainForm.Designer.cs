@@ -40,7 +40,7 @@ namespace Glowing
             // 
             this.JsonTextBox.Location = new System.Drawing.Point(12, 31);
             this.JsonTextBox.Name = "JsonTextBox";
-            this.JsonTextBox.Size = new System.Drawing.Size(337, 321);
+            this.JsonTextBox.Size = new System.Drawing.Size(547, 321);
             this.JsonTextBox.TabIndex = 0;
             this.JsonTextBox.Text = "";
             // 
@@ -56,16 +56,16 @@ namespace Glowing
             // 
             // CodeTextBox
             // 
-            this.CodeTextBox.Location = new System.Drawing.Point(447, 27);
+            this.CodeTextBox.Location = new System.Drawing.Point(691, 31);
             this.CodeTextBox.Name = "CodeTextBox";
-            this.CodeTextBox.Size = new System.Drawing.Size(337, 321);
+            this.CodeTextBox.Size = new System.Drawing.Size(554, 321);
             this.CodeTextBox.TabIndex = 2;
             this.CodeTextBox.Text = "";
             // 
             // CodeLabel
             // 
             this.CodeLabel.AutoSize = true;
-            this.CodeLabel.Location = new System.Drawing.Point(749, 9);
+            this.CodeLabel.Location = new System.Drawing.Point(1210, 9);
             this.CodeLabel.Name = "CodeLabel";
             this.CodeLabel.Size = new System.Drawing.Size(35, 15);
             this.CodeLabel.TabIndex = 3;
@@ -73,7 +73,7 @@ namespace Glowing
             // 
             // CodeGenerationButton
             // 
-            this.CodeGenerationButton.Location = new System.Drawing.Point(355, 39);
+            this.CodeGenerationButton.Location = new System.Drawing.Point(589, 50);
             this.CodeGenerationButton.Name = "CodeGenerationButton";
             this.CodeGenerationButton.Size = new System.Drawing.Size(75, 54);
             this.CodeGenerationButton.TabIndex = 5;
@@ -85,7 +85,7 @@ namespace Glowing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1257, 629);
             this.Controls.Add(this.CodeGenerationButton);
             this.Controls.Add(this.CodeLabel);
             this.Controls.Add(this.CodeTextBox);
